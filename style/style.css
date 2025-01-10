@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.font {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    margin: 0px 100px;
+}
+/* comon style */
+.hero-section .btn{
+    background-color: rgb(0, 106, 80);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+.hero-section .btn:hover{
+    background-color: rgb(1, 64, 48);
+}
+
+
+
+/* nav style start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 106, 80);
+    padding: 10px 30px;
+    border: 2px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    background-color: rgb(0, 106, 80);
+    color: #fff;
+}
+/* hero area style */
+.hero-section{
+    background-color: rgb(198, 228, 214);
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px 40px;
+}
+.hero-section .mini-tittle{
+    color: rgba(14, 14, 14, 0.5);
+}
+.hero-section .big-tittle{
+    font-weight: 700px;
+    font-size: 50px;
+    margin: 21px 0px;
+}
