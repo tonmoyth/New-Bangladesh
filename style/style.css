@@ -10,7 +10,7 @@
     background-color: rgb(245, 245, 245);
 }
 /* comon style */
-.hero-section .btn{
+.btn{
     background-color: rgb(0, 106, 80);
     padding: 15px 30px;
     border: none;
@@ -20,13 +20,18 @@
     font-size: 18px;
     transition-duration: 0.5s;
 }
-.hero-section .btn:hover{
+.btn:hover{
     background-color: rgb(1, 64, 48);
 }
 .discription{
     color: rgba(14, 14, 14, 0.7);
+    margin: 20px 0;
 }
-
+.card-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    margin: 10px 0px;
+}
 
 /* nav style start */
 nav{
@@ -65,7 +70,7 @@ nav a:hover{
     font-size: 50px;
     margin: 21px 0px;
 }
-/* section style */
+/* section one style */
 .section-one{
     margin: 40px 0px;
 }
@@ -80,8 +85,57 @@ nav a:hover{
     border-radius: 14px;
     padding: 19px;
 }
-.section-one .card-container .card-name{
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 18px;
-    margin: 10px 0px;
+/* section two style */
+.section-two{
+    margin: 40px 0px;
+}
+.section-two .section-two-tittle{
+    margin: 15px 0px;
+}
+.section-two .card-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px 0px;
+}
+.section-two .bg-color-one{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 15px;
+    border-radius: 12px;
+}
+.section-two .bg-color-two{
+    background-color: rgb(198, 228, 214);
+    padding: 15px;
+    border-radius: 12px;
+}
+.section-two .bg-color-three{
+    background-color: rgb(247, 235, 207);
+    padding: 15px;
+    border-radius: 12px;
+}
+.section-two .fist-btn{
+    background-color: rgb(84, 144, 245);
+    padding: 11px 20px;
+    font-weight: 425px;
+    transition-duration: 0.5s;
+}
+.section-two .fist-btn:hover{
+    background-color: rgb(1, 62, 167)
+}
+.section-two .secund-btn{
+    background-color: rgb(1, 94, 52);
+    padding: 11px 20px;
+    font-weight: 425px;
+    transition-duration: 0.5s;
+}
+.section-two .secund-btn:hover{
+    background-color: rgb(91, 246, 176)
+}
+.section-two .thard-btn{
+    background-color: rgb(255, 194, 57);
+    padding: 11px 20px;
+    font-weight: 425px;
+    transition-duration: 0.5s;
+}
+.section-two .thard-btn:hover{
+    background-color: rgb(135, 95, 2)
 }
