@@ -32,6 +32,9 @@
     font-size: 18px;
     margin: 10px 0px;
 }
+.margin-buttom{
+    margin-bottom: 45px;
+}
 
 /* nav style start */
 nav{
@@ -138,4 +141,12 @@ nav a:hover{
 }
 .section-two .thard-btn:hover{
     background-color: rgb(135, 95, 2)
+}
+.section-three .yonus-container{
+    background-color: #fff;
+    background-image:url(../image/quote-bg.png);
+    background-position: 25px 20px;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+    border-radius: 15px;
 }
