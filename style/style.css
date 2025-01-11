@@ -65,6 +65,7 @@ nav a:hover{
     align-items: center;
     border-radius: 20px;
     padding: 40px 40px;
+    margin-bottom: 200px;
 }
 .hero-section .mini-tittle{
     color: rgba(14, 14, 14, 0.5);
@@ -146,10 +147,53 @@ nav a:hover{
 .section-three .yonus-container{
     background-color: #fff;
     background-image:url(../image/quote-bg.png);
-    background-position: 25px 20px;
+    background-position: 20px 20px;
     background-repeat: no-repeat;
-    padding: 30px 20px;
+    padding: 13px 20px;
     border-radius: 15px;
+}
+/* opinion-section */
+.opinion-section{
+    margin: 60px 0px;
+}
+.opinion-section .table-caption-row{
+    background-color: rgb(198, 228, 214);
+    /* display: flex; */
+    border: none;
+    
+    /* width: 100%; */
+    /* justify-content:; */
+}
+.opinion-section .table-caption-row th{
+    text-align: right;
+    padding: 10px 28px;
+}
+.opinion-section .table-caption-row .first{
+    text-align: left;
+}
+.opinion-section .your-opinion{
+    margin: 20px 0px;
+}
+.table-container{
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+table{
+    width: 100%;
+    
+}
+table, tr, td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    padding: 20px 10px;
+    
+}
+table select{
+   padding: 7px;
+   background-color: rgb(198, 228, 214);
+   border-radius: 6px;
+
 }
 /* section four style */
 .section-four{
@@ -249,7 +293,7 @@ footer input[type="submit"]{
     font-size: 16px;
     position: absolute;
     top: 0;
-    right: -78px;
+    right: -88px;
 }
 footer input[type="submit"]:hover{
     background-color: rgb(10, 196, 149);
@@ -258,3 +302,4 @@ footer input[type="submit"]:hover{
 footer:last-child{
     color: rgba(14, 14, 14, 0.7);
 }
+
