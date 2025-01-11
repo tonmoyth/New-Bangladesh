@@ -25,7 +25,7 @@
 }
 .discription{
     color: rgba(14, 14, 14, 0.7);
-    margin: 20px 0;
+    margin: 35px 0;
 }
 .card-name{
     color: rgba(14, 14, 14, 0.8);
@@ -148,5 +148,19 @@ nav a:hover{
     background-position: 25px 20px;
     background-repeat: no-repeat;
     padding: 30px 20px;
+    border-radius: 15px;
+}
+/* section four style */
+.section-four{
+    margin: 60px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+.section-four .satelite-conainer{
+    display: flex;
+    gap: 30px;
+}
+.section-four .image-contain img{
     border-radius: 15px;
 }
